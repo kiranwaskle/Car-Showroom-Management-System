@@ -1,6 +1,9 @@
+//importing the necessary classes for this class
 
 import java.sql.SQLOutput;
 import java.util.Scanner;
+
+//implementing the showroom class that implements the utility interface
 public class Showroom implements utility{
     String showroom_name;
     String showroom_address;
@@ -9,6 +12,7 @@ public class Showroom implements utility{
     String manager_name;
 
     @Override
+    //get the details of the showroom class
     public void get_details() {
         System.out.println("Showroom Name: "+showroom_name);
         System.out.println("Showroom Address: "+showroom_address);
@@ -18,6 +22,7 @@ public class Showroom implements utility{
 
     }
     @Override
+    //set the details of the showroom class
     public void set_details(){
         Scanner sc = new Scanner(System.in);
         System.out.println("======================= *** ENTER SHOWROOM DETAILS *** =======================");
