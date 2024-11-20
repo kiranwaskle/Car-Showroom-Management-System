@@ -1,6 +1,8 @@
 import java.util.Scanner;
 
+/*Creating the Cars class that inherit the Showroom class and implements the utility interface */
 public class Cars extends Showroom implements utility{
+    //taking the data members of the Cars class
     String car_name;
     String car_color;
     String car_fuel_type;
@@ -9,6 +11,7 @@ public class Cars extends Showroom implements utility{
     String car_transmission;
 
     @Override
+    //getting the details of the Cars
     public void get_details(){
         System.out.println("NAME: "+car_name);
         System.out.println("COLOR: "+car_color);
@@ -19,6 +22,7 @@ public class Cars extends Showroom implements utility{
     }
 
     @Override
+    //setting the details of the Cars class
     public void set_details(){
         Scanner sc = new Scanner(System.in);
         System.out.println("======================= *** ENTER CAR DETAILS *** =======================");
