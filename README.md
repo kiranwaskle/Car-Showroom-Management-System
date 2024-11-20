@@ -1,1 +1,2 @@
 # Car-Showroom-Management-System
+The Showroom Management System is a Java-based console application designed to manage showrooms, employees, and cars efficiently. It provides an interactive menu-driven interface for users to add and view details of showrooms, employees, and cars. The project demonstrates the application of Object-Oriented Programming (OOP) principles, interfaces, and Java collections to implement a robust management system.
