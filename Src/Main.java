@@ -1,6 +1,7 @@
-import java.util.*;
+import java.util.*; //it's import the all the classes
 import java.lang.*;
 
+//creating the one interface with two methods
 interface utility{
     public void get_details();
     public void set_details();
@@ -25,10 +26,12 @@ public class Main {
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        //creating the all the classes arrays and there limits are 5
         Showroom showroom[] = new Showroom[5];
         Employees employee[] = new Employees[5];
         Cars car[] = new Cars[5];
         int car_counter = 0;
+        //to track the size of the all the arrays
         int showroom_counter = 0;
         int employees_counter = 0;
         int choice = 100;
