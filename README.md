@@ -17,7 +17,6 @@ Showroom Name
 Address
 Manager Name
 Number of Employees
-
 Total Cars in Stock
 
 ➤ View all added showroom details in a structured format.
@@ -42,7 +41,6 @@ Car Color
 Fuel Type (Petrol/Diesel)
 Price
 Car Type (Sedan/SUV/Hatchback)
-
 Transmission Type (Automatic/Manual)
 
 ➤ Ensure duplicate cars are not added.
