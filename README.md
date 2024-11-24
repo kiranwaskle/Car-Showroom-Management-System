@@ -10,38 +10,47 @@ The project utilizes fundamental Java concepts like classes, inheritance, interf
 🛠️ Features of the Car Showroom Management System
 
 
-📂 Showroom Management
+📂 Showroom Management:
 
 ➤ Add details of multiple showrooms, including:
 Showroom Name
 Address
 Manager Name
 Number of Employees
+
 Total Cars in Stock
+
 ➤ View all added showroom details in a structured format.
 
 
-👔 Employee Management
+👔 Employee Management: 
+
 ➤ Add employee details, such as:
 Employee Name
 Job Role
 Salary
+
 ➤ View and manage all employee records.
 
 
-🚘 Car Management
+
+🚘 Car Management:
+
 ➤ Add car details, including:
 Car Name
 Car Color
 Fuel Type (Petrol/Diesel)
 Price
 Car Type (Sedan/SUV/Hatchback)
+
 Transmission Type (Automatic/Manual)
+
 ➤ Ensure duplicate cars are not added.
 
 ➤ Track the number of cars in stock for each showroom.
 
 ➤ View detailed information of all cars added.
+
 
 
 📑 Interactive Menu
